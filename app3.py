@@ -23,7 +23,7 @@ sm_df = pickle.load(open('sm_df.pkl','rb'))
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True) 
     
-st.sidebar.image(r"C:\Users\hp\Desktop\COMMODITY-transformed.png")
+st.sidebar.image('https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/COMMODITY-transformed.png')
 #st.sidebar.title('Commodity Price Predictor')
 user_menu = st.sidebar.selectbox('Choose the Commodity',['Laptop','Smartphone','Car'])
 
@@ -76,7 +76,7 @@ if user_menu == 'Laptop':
         
 if user_menu == 'Car':
     
-    st.image(r"C:\Users\hp\Desktop\car png.png")
+    st.image("https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/car%20png.png")
     st.markdown("<h1 class='main-title'>Car Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a Car based on its specifications.</p>", unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ if user_menu == 'Car':
         #st.title("The predicted price for the car is: ₹"+ car_price)
         
 if user_menu =='Smartphone':
-    st.image(r"C:\Users\hp\Desktop\android-best-phones-removebg-preview.png")
+    st.image("https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/android-best-phones-removebg-preview.png")
     st.markdown("<h1 class='main-title'>Smartphone Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a Smartphone based on its specifications.</p>", unsafe_allow_html=True)
 
