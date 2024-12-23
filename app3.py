@@ -23,12 +23,12 @@ sm_df = pickle.load(open('sm_df.pkl','rb'))
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True) 
     
-st.sidebar.image('https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/COMMODITY-transformed.png')
+st.sidebar.image("https://raw.githubusercontent.com/Ajinkya-19/Commodity-Price-Predictor/refs/heads/main/COMMODITY-transformed.png")
 #st.sidebar.title('Commodity Price Predictor')
 user_menu = st.sidebar.selectbox('Choose the Commodity',['Laptop','Smartphone','Car'])
 
 if user_menu == 'Laptop':
-    st.image(r"C:\Users\hp\Downloads\8fgiwjdr.png")
+    st.image("https://www.bing.com/images/blob?bcid=r3zkL3mEfeUHhw")
     st.markdown("<h1 class='main-title'>Laptop Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a laptop based on its specifications.</p>", unsafe_allow_html=True)
 
@@ -76,7 +76,7 @@ if user_menu == 'Laptop':
         
 if user_menu == 'Car':
     
-    st.image("https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/car%20png.png")
+    st.image("https://raw.githubusercontent.com/Ajinkya-19/Commodity-Price-Predictor/refs/heads/main/car%20png.png")
     st.markdown("<h1 class='main-title'>Car Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a Car based on its specifications.</p>", unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ if user_menu == 'Car':
         #st.title("The predicted price for the car is: ₹"+ car_price)
         
 if user_menu =='Smartphone':
-    st.image("https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/android-best-phones-removebg-preview.png")
+    st.image("https://raw.githubusercontent.com/Ajinkya-19/Commodity-Price-Predictor/refs/heads/main/android-best-phones-removebg-preview.png")
     st.markdown("<h1 class='main-title'>Smartphone Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a Smartphone based on its specifications.</p>", unsafe_allow_html=True)
 
