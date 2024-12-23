@@ -28,7 +28,7 @@ st.sidebar.image("https://raw.githubusercontent.com/Ajinkya-19/Commodity-Price-P
 user_menu = st.sidebar.selectbox('Choose the Commodity',['Laptop','Smartphone','Car'])
 
 if user_menu == 'Laptop':
-    st.image("https://www.bing.com/images/blob?bcid=r3zkL3mEfeUHhw")
+    st.image("https://raw.githubusercontent.com/Ajinkya-19/Commodity-Price-Predictor/refs/heads/main/8fgiwjdr.png")
     st.markdown("<h1 class='main-title'>Laptop Price Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Find out the estimated price of a laptop based on its specifications.</p>", unsafe_allow_html=True)
 
