@@ -24,25 +24,6 @@ The **Commodity Price Predictor** is a web-based application designed to estimat
 - **License**: Distributed under the **MIT License**.
 
 ---
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/commodity-price-predictor.git
-   cd commodity-price-predictor
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the application:
-   ```bash
-   streamlit run app3.py
-   ```
-
----
-
 ## Usage
 
 1. Choose a commodity (**Laptop**, **Car**, or **Smartphone**) from the sidebar.
@@ -62,6 +43,25 @@ The **Commodity Price Predictor** is a web-based application designed to estimat
 6. View the predicted price displayed on the screen.
    ![prediction](prediction_image.png)
 
+
+------
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/commodity-price-predictor.git
+   cd commodity-price-predictor
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```bash
+   streamlit run app3.py
+   ```
+
+---
 
 ---
 
