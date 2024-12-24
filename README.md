@@ -7,6 +7,8 @@ The **Commodity Price Predictor** is a web-based application designed to estimat
 ### deployment link - https://commodity-price-predictor-eel3.onrender.com
 
 ---
+## Logo
+  ![Logo of predictor](COMMODITY-transformed.png)
 
 ## Features
 
@@ -45,12 +47,20 @@ The **Commodity Price Predictor** is a web-based application designed to estimat
 ## Usage
 
 1. Choose a commodity (**Laptop**, **Car**, or **Smartphone**) from the sidebar.
-2. Fill in the required specifications:
+2. ## Usage
+1. **Laptop Prediction Interface**:
+   ![Laptop Prediction](https://github.com/Ajinkya-19/Commodity-Price-Predictor/blob/main/laptop%20price.png)
+3. Fill in the required specifications:
    - For **Laptops**: Brand, type, RAM, touchscreen, resolution, etc.
    - For **Cars**: Model, fuel type, age, mileage, etc.
    - For **Smartphones**: Brand, processor, RAM, camera specs, etc.
-3. Click the **Predict Price** button.
-4. View the predicted price displayed on the screen.
+2. **Car Prediction Interface**:
+   ![Car Prediction](carprice.png)
+
+4. Click the **Predict Price** button.
+5. 3. **Smartphone Prediction Interface**:
+   ![Smartphone Prediction](smartphonepricepredict.png)
+6. View the predicted price displayed on the screen.
 
 ---
 
