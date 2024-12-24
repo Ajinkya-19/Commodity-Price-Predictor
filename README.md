@@ -2,7 +2,6 @@
 
 
 The **Commodity Price Predictor** is a web-based application designed to estimate the price of three key commodities: **Laptops**, **Cars**, and **Smartphones**, based on user-provided specifications. This tool leverages machine learning models to provide accurate price predictions, making it an invaluable resource for users planning to purchase or evaluate these items.
------
 
 ### deployment link - https://commodity-price-predictor-eel3.onrender.com
 
@@ -61,6 +60,8 @@ The **Commodity Price Predictor** is a web-based application designed to estimat
 5. 3. **Smartphone Prediction Interface**:
    ![Smartphone Prediction](smartphonepricepredict.png)
 6. View the predicted price displayed on the screen.
+   ![prediction](prediction_image.png)
+
 
 ---
 
